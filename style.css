@@ -20,6 +20,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .container {
@@ -125,4 +126,16 @@ body {
   margin: 2rem;
   border: 3rem solid white;
   box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.extra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: gainsboro;
+  background-color: #555;
 }
